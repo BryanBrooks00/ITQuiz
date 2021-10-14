@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="ad">Ad</string>
+    <string name="tryLater">Try later</string>
+    <string name="exit">Press again to exit</string>
+    <string name="next">Next</string>
+    <string name="wrong">Try again</string>
+    <string name="answer1">sell</string>
+    <string name="answer5">call me</string>
+    <string name="answer7">water</string>
+    <string name="skip">Watch Ad to skip level</string>
+    <string name="noText">Please, enter the answer</string>
+    <string name="congratulations">Congratulations</string>
+    <string name="deleteScore">Delete your score</string>
+    <string name="newLvl">New levels will added. Now you can rate the game.</string>
+    <string name="truth">Right!</string>
+    <string name="lvl1">You have 100 sites. How to make a million dollars with? Answer in one word:</string>
+    <string name="lvl2">You have a cube-shaped piece of cheese and a knife. How many cuts do you need to make with a knife to cut the cheese into 27 cubes?</string>
+    <string name="lvl3">How many times a day do all three hands of the clock overlap each other? Answer with a number:</string>
+    <string name="lvl4">What is 2 ^ 64?</string>
+    <string name="lvl5">You communicate with Alice through correspondence through Bob\'s intermediary. You need to find out whether Alice KNOWS your phone number, but you cannot ask about it directly in the correspondence, since you do not want Bob to find out your phone number. Think about how to do this and write a message to Alice:</string>
+    <string name="lvl6">How to find out the sum of numbers A and B using the subtraction sign (-)?</string>
+    <string name="lvl7">How do you know the weight of your own head without separating it from the body? Hint: it needs to be placed somewhere. Write in one word where:</string>
+    <string name="lvl8">What is the angle on the clock between the hour and minute hands at 3:15?</string>
+    <string name="lvl9">You need to choose one of the rates. With bet A, you need to throw the basketball into the basket. If you hit, you will receive $ 1000. If you bet B, you need to hit two times out of three throws, then you will also receive $ 1000. Which rate is more preferable?</string>
+    <string name="lvl10">Add any arithmetic symbols to the following equation to make the equation true: 3136 = 8. Write down the completed equation:</string>
+</resources>
