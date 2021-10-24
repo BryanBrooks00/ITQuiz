@@ -39,7 +39,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        loadAd();
         loadFragment();
     }
 
@@ -103,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
         btn_ad.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                showAd();
+                loadAd();
 
             }
         });
@@ -149,6 +148,7 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onAdLoaded (@NonNull RewardedAd rewardedAd){
                         mRewardedAd = rewardedAd;
+                        showAd();
                         Log.d(TAG, "Ad was loaded.");
                     }
                 });
@@ -182,7 +182,7 @@ public class MainActivity extends AppCompatActivity {
 
             });
         } catch (Exception e){
-            Log.i(TAG, "showAd error");
+           Log.i(TAG, "showAd error");
         }
 
         if (mRewardedAd!= null) {

@@ -15,13 +15,11 @@
             android:id="@+id/question_tv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="38dp"
             android:gravity="center"
             android:text="@string/lvl7"
             android:textColor="@color/white"
-            android:textSize="15sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
+            android:textSize="13sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -29,15 +27,12 @@
             android:id="@+id/answer_et"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="162dp"
-            android:layout_marginTop="60dp"
-            android:layout_marginEnd="161dp"
+            android:layout_marginTop="29dp"
             android:background="@color/white"
             android:ems="5"
             android:textColor="@color/black"
             android:textSize="15sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/question_tv" />
 
@@ -45,52 +40,42 @@
             android:id="@+id/btn_ok"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="162dp"
-            android:layout_marginTop="44dp"
-            android:layout_marginEnd="161dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="40dp"
             android:background="@drawable/btn_press_logic"
             android:text="@string/ok"
             android:textColor="@color/white"
             android:textSize="11sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/answer_et"
             app:layout_constraintTop_toBottomOf="@+id/answer_et" />
 
         <TextView
             android:id="@+id/result_tv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="179dp"
-            android:layout_marginTop="44dp"
-            android:layout_marginEnd="179dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="24dp"
             android:gravity="center"
             android:text="@string/truth"
             android:textColor="@color/white"
-            android:textSize="16sp"
+            android:textSize="13sp"
             android:visibility="visible"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.333"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/btn_ok"
             app:layout_constraintTop_toBottomOf="@+id/btn_ok" />
 
         <Button
             android:id="@+id/btn_next"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="273dp"
-            android:layout_marginTop="264dp"
-            android:layout_marginEnd="50dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="52dp"
             android:background="@drawable/btn_press_logic"
             android:text="@string/next"
             android:textColor="@color/white"
-            android:textSize="12sp"
+            android:textSize="11sp"
             android:visibility="visible"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/question_tv" />
-
+            app:layout_constraintTop_toBottomOf="@+id/result_tv" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>

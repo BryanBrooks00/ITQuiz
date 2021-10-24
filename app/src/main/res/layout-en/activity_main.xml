@@ -12,7 +12,7 @@
         android:id="@+id/frameLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginBottom="170dp">
+        android:layout_marginBottom="150dp">
 
     </FrameLayout>
 
@@ -21,13 +21,13 @@
         android:id="@+id/ad_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="26dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginBottom="13dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="147dp"
+        android:layout_marginBottom="24dp"
         android:text="@string/skip"
         android:textColor="@color/white"
-        android:textSize="15sp"
+        android:textSize="12sp"
         app:layout_constraintBottom_toTopOf="@+id/btn_ad"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -38,12 +38,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="161dp"
-        android:layout_marginTop="13dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="162dp"
-        android:layout_marginBottom="43dp"
         android:background="@drawable/btn_press_logic"
         android:text="@string/ad"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="11sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ad_tv" />

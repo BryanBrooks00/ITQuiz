@@ -19,7 +19,7 @@
     <string name="lvl10">Добавьте к следующему уравнению любые арифметические символы, чтобы уравнение стало верным: 3136 = 8. Запишите готовое уравнение:</string>
     <string name="answer1">продать</string>
     <string name="answer2" translatable="false">6</string>
-    <string name="answer3" translatable="false">0</string>
+    <string name="answer3" translatable="false">2</string>
     <string name="answer4" translatable="false">1024</string>
     <string name="answer5">позвони мне</string>
     <string name="answer6" translatable="false">a--b</string>

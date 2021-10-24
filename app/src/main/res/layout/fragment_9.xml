@@ -15,11 +15,11 @@
             android:id="@+id/question_tv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="38dp"
             android:gravity="center"
             android:text="@string/lvl9"
             android:textColor="@color/white"
-            android:textSize="15sp"
+            android:textSize="13sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -27,7 +27,7 @@
             android:id="@+id/answer_et"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="60dp"
+            android:layout_marginTop="29dp"
             android:background="@color/white"
             android:ems="5"
             android:textColor="@color/black"
@@ -40,7 +40,7 @@
             android:id="@+id/btn_ok"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="44dp"
+            android:layout_marginTop="37dp"
             android:background="@drawable/btn_press_logic"
             android:text="@string/ok"
             android:textColor="@color/white"
@@ -52,12 +52,12 @@
             android:id="@+id/result_tv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="18dp"
-            android:layout_marginTop="44dp"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="25dp"
             android:gravity="center"
             android:text="@string/truth"
             android:textColor="@color/white"
-            android:textSize="16sp"
+            android:textSize="13sp"
             android:visibility="visible"
             app:layout_constraintStart_toStartOf="@+id/btn_ok"
             app:layout_constraintTop_toBottomOf="@+id/btn_ok" />
@@ -66,16 +66,14 @@
             android:id="@+id/btn_next"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="26dp"
-            android:layout_marginEnd="50dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="52dp"
             android:background="@drawable/btn_press_logic"
             android:text="@string/next"
             android:textColor="@color/white"
-            android:textSize="12sp"
+            android:textSize="11sp"
             android:visibility="visible"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/result_tv" />
-
-
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>
